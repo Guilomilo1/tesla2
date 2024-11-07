@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="./logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="#" id="models"> Run Star Trainer Azul</a></li>
+                <li><a href="#" id="model3"> Run Star Trainer Roxo</a></li>
+                <li><a href="#" id="modelx"> Run Star Trainer Rosa</a></li>
+                <li><a href="#" id="modely"> Run Star Trainer Bordo</a></li>
+            </ul>
+            <a href="#" class="btn">Reserve Now</a>
+        </nav>
+        <div class="info">
+            <div>
+                <h2 id="seg">R$ 499,90</h2>
+                <p>Preço</p>
+            </div>
+            <div>
+                <h2 id="mph">Unisex Cano Baixo</h2>
+                <p>Categoria</p>
+            </div>
+            <div> 
+                <h2 id="mi">Star Chevron</h2>
+                <p>Legado</p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h2 id="model">Model S</h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let header = document.getElementById('header')
+    let ms = document.getElementById('models')
+    let m3 = document.getElementById('model3')
+    let mx = document.getElementById('modelx')
+    let my = document.getElementById('modely')
+    let model = document.getElementById('model')
+    let seg = document.getElementById('seg')
+    let mph = document.getElementById('mph')
+    let mi = document.getElementById('mi')
+
+    ms.onclick = function(){
+        header.style.background = "url(./image-1.png)"
+        model.innerHTML = "Run Star Trainer Azul"
+        srg.innerHTML = "R$ 499,90"
+        mph.innerHTML ="Unisex Cano Baixo"
+        mi.innerHTML = "NIGHT INDIGO/EGRET/WHITE"
+    }
+
+    m3.onclick = function(){
+        header.style.backgroundImage = "url(./image-2.png)"
+        model.innerHTML = "Run Star Trainer Roxo"
+        srg.innerHTML = "R$ 499,90"
+        mph.innerHTML ="Unisex Cano Baixo"
+        mi.innerHTML = "QUANTUM VIOLET/EGRET/WHITE"
+    }
+    mx.onclick = function(){
+        header.style.backgroundImage = "url(./image-3.png)"
+        model.innerHTML = "Run Star Trainer Rosa"
+        srg.innerHTML = "R$ 499,90"
+        mph.innerHTML ="Unisex Cano Baixo"
+        mi.innerHTML = "LOTUS PINK/EGRET/WHITE"
+    }
+    my.onclick = function(){
+        header.style.backgroundImage = "url(./image-4.png)"
+        model.innerHTML = "Run Star Trainer Azul"
+        srg.innerHTML = "R$ 499,90"
+        mph.innerHTML ="Unisex Cano Baixo"
+        mi.innerHTML = "NIGHT INDIGO/EGRET/WHITE"
+    }
+</script>
+</html>
